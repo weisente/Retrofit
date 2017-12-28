@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onNext(UserInfo userInfo) {
 //                        Integer.parseInt(userInfo.userName);// 不会停止运行
                         Log.e("TAG",userInfo.toString());
+                        Integer.parseInt(userInfo.toString());
                     }
                 });
     }

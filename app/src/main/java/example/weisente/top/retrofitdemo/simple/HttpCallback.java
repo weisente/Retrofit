@@ -22,9 +22,6 @@ public abstract class HttpCallback <T> implements Callback<Result<T>> {
             onError(result.bol,result.msg);
             return;
         }
-
-
-
     }
 
     @Override
